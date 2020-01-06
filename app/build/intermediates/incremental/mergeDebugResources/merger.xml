@@ -2685,7 +2685,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-    </style></file></source><source path="D:\AndroidApps\AndroidDesignApp\CustomFanController\app\build\generated\res\rs\debug"/><source path="D:\AndroidApps\AndroidDesignApp\CustomFanController\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AndroidApps\AndroidDesignApp\CustomFanController\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AndroidApps\AndroidDesignApp\CustomFanController\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
+    </style></file><file path="D:\AndroidApps\AndroidDesignApp\CustomFanController\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="DialView">
+        <attr format="color" name="fanColor1"/>
+        <attr format="color" name="fanColor2"/>
+        <attr format="color" name="fanColor3"/>
+    </declare-styleable></file></source><source path="D:\AndroidApps\AndroidDesignApp\CustomFanController\app\build\generated\res\rs\debug"/><source path="D:\AndroidApps\AndroidDesignApp\CustomFanController\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AndroidApps\AndroidDesignApp\CustomFanController\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\AndroidApps\AndroidDesignApp\CustomFanController\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
         <attr format="reference" name="listLayout"/>
@@ -2806,6 +2810,10 @@
         <attr format="dimension" name="barLength"/>
         
         <attr format="dimension" name="thickness"/>
+    </declare-styleable><declare-styleable name="DialView">
+        <attr format="color" name="fanColor1"/>
+        <attr format="color" name="fanColor2"/>
+        <attr format="color" name="fanColor3"/>
     </declare-styleable><declare-styleable name="ActionBarLayout">
         <attr name="android:layout_gravity"/>
     </declare-styleable><declare-styleable name="StateListDrawable">
